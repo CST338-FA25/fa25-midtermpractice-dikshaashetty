@@ -30,7 +30,7 @@ public class StormTrooper extends Trooper {
         return soldierCount;
     }
 
-    // march(double duration) implementation- required to implement the abstract method
+    // march implementation- required to implement the abstract method
     @Override
     public double march(double duration) {
         return marchSpeed * duration * marchModifier;

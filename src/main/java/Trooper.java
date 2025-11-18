@@ -92,7 +92,7 @@ public abstract class Trooper {
     }
 
     // addToUnit method
-    public void addToUnit(HashMap<String, List<Trooper>> units, Trooper t) {
+    public static void addToUnit(HashMap<String, List<Trooper>> units, Trooper t) {
         //to check if the Trooper object is null, if so return
         if (t == null) {
             return;

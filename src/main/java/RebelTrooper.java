@@ -35,13 +35,10 @@
         return marchSpeed * duration * marchModifier;
     }
 
+    //toString
     @Override
     public String toString() {
-        // returns name + "(" + parent's toString + ") a " + trooperKind
-        // Example output: Luke(red5:) a pilot
         return name + "(" + super.toString() + ") a " + trooperKind;
     }
-} // End of RebelTrooper class
+}
 
-
- }
